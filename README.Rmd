@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# rdevt
+
+In order to familiarize with an r package development process.
+
+## Installation
+
+You can install the development version of rdevt from
+[GitHub](https://github.com/ashleylijie/rdevt) with:
+
+``` r
+devtools::install_github("ashleylijie/rdevt")
+```
+
+## Example
+
+```{r example}
+library(rdevt)
+
+# basic example code
+numverify(number = 14158586273)
+```
